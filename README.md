@@ -1,4 +1,5 @@
-# Access2Justice <small>by [The Commons Law Center](https://thecommonslawcenter.org) and [Code4PDX](https://codeforpdx.herokuapp.com)</small>
+# Access2Justice 
+>by [The Commons Law Center](https://thecommonslawcenter.org) and [Code4PDX](https://codeforpdx.herokuapp.com)
 
 
 # Local Deploy
