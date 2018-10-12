@@ -3,7 +3,7 @@
 
 # Local Deploy
 
-1. Make sure you have [Hugo](https:gohugo.io) installed in your local dev environment. 
+1. Make sure you have [Hugo](https://gohugo.io) installed in your local dev environment. 
 2. Clone repo
 ```bash
 git clone git@github.com:CodeForPortland/access2justicePDX.git
