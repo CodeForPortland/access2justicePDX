@@ -1,0 +1,69 @@
+baseURL = "/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Access2Justice"
+theme = "hugo-theme-learn"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir = true
+githubBaseURL = "https://github.com/CodeForPortland/access2justicePDX"
+
+[params]
+  editURL = "https://github.com/CodeForPortland/access2justicePDX"
+  description = "Documentation and Status of Access2Justice"
+  author = "Code4PDX"
+  showVisitedLinks = true
+  disableBreadcrumb = true
+  disableNextPrev = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "Code4PDX presents Access2Justice"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> Github repo"
+identifier = "cp"
+url = "https://github.com/CodeForPortland/access2justicePDX"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-server'></i> Status"
+url = "/status"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Attributions"
+url = "/attributions"
+weight = 30
+#
+#[Languages.fr]
+#title = "Documentation du thème Hugo Learn"
+#weight = 2
+#languageName = "Français"
+#
+#[[Languages.fr.menu.shortcuts]]
+#name = "<i class='fab fa-fw fa-github'></i> Repo Github"
+#identifier = "ds"
+#url = "https://github.com/matcornic/hugo-theme-learn"
+#weight = 10
+#
+#[[Languages.fr.menu.shortcuts]]
+#name = "<i class='fas fa-fw fa-camera'></i> Vitrine"
+#url = "/showcase"
+#weight = 11
+#
+#[[Languages.fr.menu.shortcuts]]
+#name = "<i class='fas fa-fw fa-bookmark'></i> Documentation Hugo"
+#identifier = "hugodoc"
+#url = "https://gohugo.io/"
+#weight = 20
+#
+#[[Languages.fr.menu.shortcuts]]
+#name = "<i class='fas fa-fw fa-bullhorn'></i> Crédits"
+#url = "/credits"
+#weight = 30
