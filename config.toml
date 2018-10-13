@@ -1,4 +1,5 @@
 baseURL = "/access2justicePDX/"
+fullURL = "//www.codeforportland.org/access2justicePDX/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
