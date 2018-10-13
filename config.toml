@@ -9,7 +9,7 @@ defaultContentLanguageInSubdir = true
 githubBaseURL = "https://github.com/CodeForPortland/access2justicePDX/tree/www-proposal/content/"
 
 [params]
-  editURL = "https://github.com/CodeForPortland/access2justicePDX/"
+  editURL = "https://github.com/CodeForPortland/access2justicePDX/tree/www-proposal/content/"
   description = "The public face for Access2Justice."
   author = "Code4PDX"
   showVisitedLinks = true
