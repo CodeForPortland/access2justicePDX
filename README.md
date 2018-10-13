@@ -1,7 +1,7 @@
 # Access2Justice 
 >by [The Commons Law Center](https://thecommonslawcenter.org) and [Code4PDX](https://codeforpdx.herokuapp.com)
 
-This is the code base (aka **The WWW**)for the public facing site of the project, it will provide and collect information regarding project progress and releases, documentation, server status, contacts, and contribution information.
+This is the code base (aka **The WWW**)for the public facing site of the project. It will provide and collect information regarding project progress and releases, documentation, server status, contacts, and contribution information.
 
 # Contributing To The WWW
 
