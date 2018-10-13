@@ -7,6 +7,7 @@ theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir = true
 githubBaseURL = "https://github.com/CodeForPortland/access2justicePDX/tree/www-proposal/content/"
+disqusShortname= "access2justice-1"
 
 [params]
   editURL = "https://github.com/CodeForPortland/access2justicePDX/tree/www-proposal/content/"
