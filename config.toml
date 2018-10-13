@@ -1,4 +1,4 @@
-baseURL = "access2justicePDX/"
+baseURL = "/access2justicePDX/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
