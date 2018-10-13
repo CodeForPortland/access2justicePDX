@@ -10,7 +10,7 @@ githubBaseURL = "https://github.com/CodeForPortland/access2justicePDX"
 
 [params]
   editURL = "https://github.com/CodeForPortland/access2justicePDX"
-  description = "Documentation and Status of Access2Justice"
+  description = "The public face for Access2Justice."
   author = "Code4PDX"
   showVisitedLinks = true
   disableBreadcrumb = true
@@ -40,30 +40,3 @@ weight = 20
 name = "<i class='fas fa-fw fa-bullhorn'></i> Attributions"
 url = "/attributions"
 weight = 30
-#
-#[Languages.fr]
-#title = "Documentation du thème Hugo Learn"
-#weight = 2
-#languageName = "Français"
-#
-#[[Languages.fr.menu.shortcuts]]
-#name = "<i class='fab fa-fw fa-github'></i> Repo Github"
-#identifier = "ds"
-#url = "https://github.com/matcornic/hugo-theme-learn"
-#weight = 10
-#
-#[[Languages.fr.menu.shortcuts]]
-#name = "<i class='fas fa-fw fa-camera'></i> Vitrine"
-#url = "/showcase"
-#weight = 11
-#
-#[[Languages.fr.menu.shortcuts]]
-#name = "<i class='fas fa-fw fa-bookmark'></i> Documentation Hugo"
-#identifier = "hugodoc"
-#url = "https://gohugo.io/"
-#weight = 20
-#
-#[[Languages.fr.menu.shortcuts]]
-#name = "<i class='fas fa-fw fa-bullhorn'></i> Crédits"
-#url = "/credits"
-#weight = 30

@@ -11,6 +11,3 @@ Here you will find information on the current projects, documentation and networ
 {{% notice warning %}}This project and site is currently in development. Expect features and web pages to be unstable and change without notice.
 {{% /notice %}}
 
-## Main features
-
-// Todo
