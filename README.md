@@ -10,8 +10,7 @@ There are multiple ways you can help out. Contributions should be made through *
 ## Locally
 1. Clone the repo to your local development environment (check below for instructions)
 
-2. Develop/Write
-[Hugo](https://gohugo.io) provides static web page generation based on the hierarchy of the information architecture (IA). [Girafe Academy](https://youtu.be/qtIqKaDlqXo) has some great videos on giving a quick overview of the different features *Hugo* provides.
+2. Develop/Write - [Hugo](https://gohugo.io) provides static web page generation based on the hierarchy of the information architecture (IA). [Girafe Academy](https://youtu.be/qtIqKaDlqXo) has some great videos on giving a quick overview of the different features *Hugo* provides.
 
 3. Make a PR - Always work in your own branch (or fork). Label your PR's to the <strike>[contribution standards](#)</strike>(comming soon) stated in the contribution guide.
 
