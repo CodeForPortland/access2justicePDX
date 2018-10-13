@@ -5,7 +5,7 @@ This is the code base (aka **The WWW**)for the public facing site of the project
 
 # Contributing To The WWW
 
-There are multiple ways you can help out. Contributions should be made through **Pull Requests(PRs)**, from a personal fork or from your own branch. Editing the content can be done directly from GitHub, however, any logic contribution is developed and tested first before a *PR* is made.
+There are multiple ways you can help out. Contributions should be made through **Pull Requests(PRs)**, from a personal fork or from your own branch. Editing the content can be done directly from GitHub, however, any logic contribution is developed and tested first, in your own enviornment, before a *PR* should be made.
 
 ## Locally
 1. Clone the repo to your local development environment (check below for instructions)
