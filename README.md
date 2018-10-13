@@ -16,5 +16,5 @@ git submodule update
 ```
 4. Launch with **Hugo's** dev server
 ```bash
-hugo serve --disableFastRender
+hugo -b localhost serve --disableFastRender
 ```
