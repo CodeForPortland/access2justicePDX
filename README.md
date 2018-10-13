@@ -13,7 +13,7 @@ There are multiple ways you can help out. Contributions should be made through *
 2. Develop/Write
 [Hugo](https://gohugo.io) provides static web page generation based on the hierarchy of the information architecture (IA). [Girafe Academy](https://youtu.be/qtIqKaDlqXo) has some great videos on giving a quick overview of the different features *Hugo* provides.
 
-3. Make a PR - Always work in your own branch (or fork). Label your PR's to the [standards](#) stated in the contribution guide.
+3. Make a PR - Always work in your own branch (or fork). Label your PR's to the <strike>[standards](#)(comming soon)</strike> stated in the contribution guide.
 
 4. Declare your PR - When your *PR* is made, let us know in *Slack*. We are interested in what you did and what you think. :) 
 
