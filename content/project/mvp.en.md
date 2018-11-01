@@ -1,6 +1,7 @@
 ---
 title: MVP
 weight: 1
+updatedon: 2018-11-01
 ---
 
 The MVP will be an application for generating **pdf documents** from an **interview process** that can then be *edited*, *shared* and *viewed* on a mobile device via a role-based access system.
@@ -69,7 +70,7 @@ Logging and user history chains will be required.
 
 > Status - In Planning
 
-The application's architecture is a microservice system. It is a cluster of independent parts called *components*. 
+The application's architecture is a microservice system and will be deployed using the [Civic Tech Labs's](https://www.codeforportland.org/CivicTechLab/) **AURA** project. It is a cluster of independent parts called *components*. 
 The goal is to make each service *single purposed* and able to be developed *orthogonally*. 
 It also allows the application developers to develop with the language they think works best for that situation. 
 
@@ -82,13 +83,15 @@ The intent is to break down our features into many focused services instead of o
 
 - **Public Website** - You are on it. :) Continual updates and content contributions can be made by clicking the edit link at the top of this page.  
 
-- **Interview** - A series of questions that can asses a user to provide answers to an answer bank, a great example is provided by [DocAssemble](https://docassemble.org/demo.html).
+- **Interview Wizard** - The interview wizard is an interface for a question and answers process. This will provide a user to provide values for the variable inputs that are needed in a generated document. A great example is provided by [DocAssemble](https://docassemble.org/demo.html).
 
-- **Mobile Viewer** - Documents generated are editable and shareable from here.
+- **Document Management Module** - The document manager is an interface that will allow the user to search and organize the various documents which have been generated, or they can create a new one.
 
-- **User Controls** - Basic user accounts can be managed from here.
+- **Account Management Module** - This interface will be for account managers, to provide access rules to different users, view histories and reset credentials.
 
-- **Case Dashboard** - Various controls that allow interactions with history and current case contexts.
+- **Profile Management Module** - Profiles represent a person involved to some degree with documents being generated. This interface will provide tooling for organizing those relations.
+
+- **Dashboard Module** - The landing page for the application. It will control the login and service/module registrations to allow a user to navigate to different features.
 
 ### Backend
 
