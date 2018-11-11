@@ -97,7 +97,7 @@ The intent is to break down our features into many focused services instead of o
 
 - **Auth(z) Manager** - Controls the authentication and authorization methods needed for user roles. and account security features.
 
-- **Session Manager** - Orchestrates the persistence for a user.
+- **Session Manager** - A token dispensary that organizes persistence for a user.
 
 - **Resource Manager** - A token dispensary that assigns and refreshes tokens.
 
@@ -111,7 +111,7 @@ The intent is to break down our features into many focused services instead of o
 
 - **Answer Bank** - Sensitive data store that holds the answers pertaining to the variable inputs inside the documents.
 
-- **Document Stores** - The source documents that provide the templates for documents parsed and generated.
+- **Document Stores** - The source documents that provide the templates for documents parsed and generated. May use Amazon RDS. 
 
 - **User Stores** - Sensitive data stores for user information.
 
