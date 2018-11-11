@@ -89,6 +89,7 @@ The intent is to break down our features into many focused services instead of o
 - **Interview Wizard** - The interview wizard is an interface for a question and answers process. This will provide a user to provide values for the variable inputs that are needed in a generated document. A great example is provided by [DocAssemble](https://docassemble.org/demo.html).
 
 - **Document Management Module** - The document manager is an interface that will allow the user to search and organize the various documents which have been generated, or they can create a new one.
+
   --Waffle: https://waffle.io/CodeForPortland/a2j-front-end_document-manager/join
 
 - **Account Management Module** - This interface will be for account managers, to provide access rules to different users, view histories and reset credentials.
@@ -96,6 +97,7 @@ The intent is to break down our features into many focused services instead of o
 - **Profile Management Module** - Profiles represent a person involved to some degree with documents being generated. This interface will provide tooling for organizing those relations.
 
 - **Dashboard Module** - The landing page for the application. It will control the login and service/module registrations to allow a user to navigate to different features.
+
     --Waffle: https://waffle.io/CodeForPortland/a2j-front-end_dashboard/join
 ### Backend
 
