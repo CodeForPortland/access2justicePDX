@@ -7,6 +7,8 @@ Here you will find information on the current projects, documentation and networ
 
 This current repo is the code base (aka **The WWW**)for the public facing site of the project. It will provide and collect information regarding project progress and releases, documentation, server status, contacts, and contribution information. To get involved with the project checkout the [WWW](https://www.codeforportland.org/access2justicePDX) or read below. :)
 
+Want to support this project? We have a [Patreon site](https://www.patreon.com/access2justice/overview).
+
 # HOW TO GET INVOLVED EASILY AND QUICKLY!
 
 1. Go here: https://www.codeforportland.org/access2justicePDX/project/mvp/

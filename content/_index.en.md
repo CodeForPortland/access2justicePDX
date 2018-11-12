@@ -11,6 +11,10 @@ We are a volunteer team of hackers working with [The Commons Law Center](https:/
 
 Here you will find information on the current projects, documentation and network status. If you want to **contribute** checkout our [GitHub](https://github.com/CodeForPortland/access2justicePDX/) and our [contribution guide](https://github.com/CodeForPortland/access2justicePDX/).
 
+# Support Us
+
+Want to help support this project? We have a [Patreon site](https://www.patreon.com/access2justice/overview) or buy us a beer at one of our coding night's [meetup](https://www.meetup.com/Code-for-PDX/).
+
 # HOW TO GET INVOLVED EASILY AND QUICKLY!
 
 1. Go here: https://www.codeforportland.org/access2justicePDX/project/mvp/
