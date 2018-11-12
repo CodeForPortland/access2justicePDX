@@ -2,6 +2,7 @@
 title: Project Outlining 
 description: We decided on teams and started breaking down the project into user stories. 
 date: 2018-10-24
+weight: 10
 ---
 
 # Introductions

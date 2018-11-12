@@ -76,16 +76,21 @@ It also allows the application developers to develop with the language they thin
 
 The intent is to break down our features into many focused services instead of one or few *monolithic* applications. 
 
+
+**General Project Waffle** : https://waffle.io/CodeForPortland/access2justicePDX/join
+
 ### Front End
 
 {{% notice info %}}Everything for front end should be **Mobile First**.
 {{% /notice %}}
 
 - **Public Website** - You are on it. :) Continual updates and content contributions can be made by clicking the edit link at the top of this page.  
-
+    
 - **Interview Wizard** - The interview wizard is an interface for a question and answers process. This will provide a user to provide values for the variable inputs that are needed in a generated document. A great example is provided by [DocAssemble](https://docassemble.org/demo.html).
 
 - **Document Management Module** - The document manager is an interface that will allow the user to search and organize the various documents which have been generated, or they can create a new one.
+
+  --Waffle: https://waffle.io/CodeForPortland/a2j-front-end_document-manager/join
 
 - **Account Management Module** - This interface will be for account managers, to provide access rules to different users, view histories and reset credentials.
 
@@ -93,11 +98,12 @@ The intent is to break down our features into many focused services instead of o
 
 - **Dashboard Module** - The landing page for the application. It will control the login and service/module registrations to allow a user to navigate to different features.
 
+    --Waffle: https://waffle.io/CodeForPortland/a2j-front-end_dashboard/join
 ### Backend
 
 - **Auth(z) Manager** - Controls the authentication and authorization methods needed for user roles. and account security features.
 
-- **Session Manager** - Orchestrates the persistence for a user.
+- **Session Manager** - A token dispensary that organizes persistence for a user.
 
 - **Resource Manager** - A token dispensary that assigns and refreshes tokens.
 
@@ -111,7 +117,7 @@ The intent is to break down our features into many focused services instead of o
 
 - **Answer Bank** - Sensitive data store that holds the answers pertaining to the variable inputs inside the documents.
 
-- **Document Stores** - The source documents that provide the templates for documents parsed and generated.
+- **Document Stores** - The source documents that provide the templates for documents parsed and generated. May use Amazon RDS. 
 
 - **User Stores** - Sensitive data stores for user information.
 
@@ -121,5 +127,7 @@ The intent is to break down our features into many focused services instead of o
 ### Infrastructure
 
 - **AURA** - A router utility for creating and managing data flow for communication to and from every component and API. 
+
+    --Waffle: https://waffle.io/CodeForPortland/CTL-AURA/join 
 
 - **Dockerfiles** - Containerization for each component allows for interoperability and CI flows.
