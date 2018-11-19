@@ -17,10 +17,11 @@ padding-left: 4px ;
 font-size: x-small;
 padding-left: 4px ;
 }
-
 </style>
+ {{ $repo := .Get "repo"}}
+ {{ $owner:= .Get "owner"}}
 <div class="ghContributors">
-  {{ $url := .Get 0 }}
+  {{ $url := string (delimit (slice "https://api.github.com/repos" $owner $repo "contributors")  "/")}}
   {{ range getJSON $url }}
   <div>
     <img src="{{.avatar_url}}" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
