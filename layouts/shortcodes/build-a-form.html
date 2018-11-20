@@ -1,0 +1,34 @@
+{{ $formId := .Get "id" | default "no id" }}
+
+{{ $formName := .Get "name" | default "awesome" }}
+<section>
+	<form id="{{- $formId -}}" class="estimate-form" aria-label="{{- $formName }} form" role="form" action="https://formspree.io/{{- .Site.Params.Contact.formEmail -}}" method="post">
+		<div aria-hidden="true" hidden>
+			<label>Meta: {{- $formName -}}-{{- $formId -}}</label>
+			<input name="meta" type="hidden" value="{{- $formName -}}-{{- $formId -}}">
+		</div>
+		<div class="field half first">
+			<label for="name">Name</label>
+			<input type="text" name="name" id="name" />
+		</div>
+		<div class="field half">
+			<label for="email">Email</label>
+			<input type="text" name="email" id="email" />
+		</div>
+    {{/* Each question is delimited by a ":"*/}}
+
+    {{ $sections := (split (.Get "sections") ":") }}
+
+    {{ range $i, $e := $sections }}
+		<div class="field">
+			<label for="message">{{ $e }}</label>
+			<textarea name="message" id="{{- $formId -}}-section-{{- $i -}}" rows="6"></textarea>
+		</div>
+    {{end}}
+		<ul class="actions">
+			<li><input type="submit" value="{{ .Get "submitText" | default "Submit" }}" class="special" /></li>
+			<li><input type="reset" value="{{ .Get "resetText" | default "Clear" }}" /></li>
+		</ul>
+
+	</form>
+</section>

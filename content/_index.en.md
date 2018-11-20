@@ -85,11 +85,11 @@ A navigation view and landing page that accepts module registration and allows a
 
 #### User Manager
 
-An orchestrator for initiating session, login and registrations procedures and for providing responses to the front end clients.
+Orchestrates session, login and registrations procedures and for providing responses to the front end clients.
 
 #### File Service Module
 
-The client for initiating document builds for providing downloadable or shareable files for a front end client. 
+Initiates document builds for providing downloadable or shareable files for a front end client. 
 
 #### Document Builder Module
 
