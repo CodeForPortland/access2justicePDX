@@ -21,6 +21,9 @@ disqusShortname= "access2justice-1"
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
+[params.contact]
+  securityForm = "security+a2j@codeforpdx.org"
+  email = "a2j@codeforpdx.org"
 [Languages]
 [Languages.en]
 title = "Code4PDX presents Access2Justice"
@@ -42,3 +45,5 @@ weight = 20
 name = "<i class='fas fa-fw fa-bullhorn'></i> Attributions"
 url = "/attributions"
 weight = 30
+
+[Contact]

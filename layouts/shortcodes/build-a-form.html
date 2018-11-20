@@ -1,8 +1,11 @@
-{{ $formId := .Get "id" | default "no id" }}
+{{/*{{ $formId := .Get "id" | default "no id" }}*/}}
 
-{{ $formName := .Get "name" | default "awesome" }}
-<section>
-	<form id="{{- $formId -}}" class="estimate-form" aria-label="{{- $formName }} form" role="form" action="https://formspree.io/{{- .Site.Params.Contact.formEmail -}}" method="post">
+{{ $formId := ( delimit $.Page.Params.title $.Page.Params.URL "::" ) }}
+
+{{ $formName := $.Page.Params.title }}
+
+<section class="build-a-form">
+	<form id="{{- $formId -}}" class="estimate-form" aria-label="{{- $formName }} form" role="form" action="https://formspree.io/{{- .Site.Params.Contact.email -}}" method="post">
 		<div aria-hidden="true" hidden>
 			<label>Meta: {{- $formName -}}-{{- $formId -}}</label>
 			<input name="meta" type="hidden" value="{{- $formName -}}-{{- $formId -}}">
@@ -15,13 +18,12 @@
 			<label for="email">Email</label>
 			<input type="text" name="email" id="email" />
 		</div>
-    {{/* Each question is delimited by a ":"*/}}
-
-    {{ $sections := (split (.Get "sections") ":") }}
-
-    {{ range $i, $e := $sections }}
+	{{- range $i, $e := (seq 0 (sub (len .Params) 1) ) }}
 		<div class="field">
-			<label for="message">{{ $e }}</label>
+			<label for="message">
+				{{- $myArg := $.Get . }}
+				{{ printf `%s` $myArg }}
+			</label>
 			<textarea name="message" id="{{- $formId -}}-section-{{- $i -}}" rows="6"></textarea>
 		</div>
     {{end}}
@@ -29,6 +31,30 @@
 			<li><input type="submit" value="{{ .Get "submitText" | default "Submit" }}" class="special" /></li>
 			<li><input type="reset" value="{{ .Get "resetText" | default "Clear" }}" /></li>
 		</ul>
-
 	</form>
 </section>
+
+<style>
+	.build-a-form ul.actions {
+		list-style: none;
+		display: flex;
+		justify-content: flex-start;
+	}
+	.build-a-form .actions li {
+		margin-left: 6px;
+	}
+	.build-a-form .actions li input{
+		padding: 8px;
+		border: black 1px solid;
+		border-radius: 0.5em;
+		transition: all 0.4s ease-out;
+	}
+
+	.build-a-form .actions li:nth-child(2n) input {
+		background: #ffadbc;
+	}
+
+	.build-a-form .actions li:hover input {
+		background: #9cc4d4;
+	}
+</style>
