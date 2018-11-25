@@ -79,9 +79,14 @@ A navigation view and landing page that accepts module registration and allows a
 |:---|:----:|:---:|
 | Data Store Manager | [GitHub](https://github.com/CodeForPortland/a2j-back-end_data-store-manager) | [Waffle.io](https://waffle.io/CodeForPortland/a2j-back-end_data-store-manager/join) |
 | User Manager | [GitHub](https://github.com/CodeForPortland/a2j-back-end_user-manager) | [Waffle.io](https://waffle.io/CodeForPortland/a2j-back-end_user-manager/join) |
+| Question Manager | [GitHub](https://github.com/CodeForPortland/a2j-back-end_question-manager) | Not Setup Yet |
 | File Services Module  | Not Setup Yet | Not Setup Yet | 
 | Document Builder Module | Not Setup Yet | Not Setup Yet | 
 | Security Manager | Not Setup Yet | Not Setup Yet | 
+
+#### Question Manger
+
+A module that handles the logic processes of questions and answers for a user.
 
 #### User Manager
 
