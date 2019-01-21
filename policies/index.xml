@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Policies on Code4PDX presents Access2Justice</title>
+    <link>/access2justicePDX/policies/</link>
+    <description>Recent content in Policies on Code4PDX presents Access2Justice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/access2justicePDX/policies/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comments Policy</title>
+      <link>/access2justicePDX/comments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/access2justicePDX/comments/</guid>
+      <description>We’ve put together a set of universal guidelines that we believe every community can benefit from and moderators can adopt. Our goal is to ensure that these set of guidelines are easy to understand. It’s not meant to be comprehensive, rather focusing on the most commonly shared principles we believe are critical for setting a foundation in a community to enable it to thrive.
+Keep it civil aka don’t be a jerk We’re going to get into the thick of a lot of heated discussions and that’s okay.</description>
+    </item>
+    
+  </channel>
+</rss>

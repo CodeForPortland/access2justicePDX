@@ -1,0 +1,57 @@
+[
+{
+	"uri": "/access2justicePDX/comments/",
+	"title": "Comments Policy",
+	"tags": [],
+	"description": "A generalized list of comment etiquette.",
+	"content": "We’ve put together a set of universal guidelines that we believe every community can benefit from and moderators can adopt. Our goal is to ensure that these set of guidelines are easy to understand. It’s not meant to be comprehensive, rather focusing on the most commonly shared principles we believe are critical for setting a foundation in a community to enable it to thrive.\nKeep it civil aka don’t be a jerk We’re going to get into the thick of a lot of heated discussions and that’s okay. These discussions often entail topics that we all personally care a lot about and will passionately defend. But in order for discussions to thrive here, we need to remember to criticize ideas, not people. \u0026nbsp;\n\u0026nbsp;So, remember to avoid:\n name-calling ad hominem attacks Responding to a post’s tone instead of its actual content. knee-jerk contradiction  Comments that we find to be hateful, inflammatory, or harassing may be removed. If you don’t have something nice to say about another user, don't say it. Treat others the way you’d like to be treated.\nAlways strive to add value to every interaction and discussion you participate in Keep it tidy Help make moderators’ lives easier by taking a moment to ensure that what you’re about to post is in the right place. That means:\n don’t post off-topic comments or discussions don’t cross-post the same thing multiple times review any specific posting guidelines for the community: some communities such as a movies community may have specific rules regarding spoilers.  check if another active discussion on your topic has already been posted  If you see something, say something Moderators are at the forefront of combatting spam, mediating disputes and enforcing community guidelines and, so are you. \u0026nbsp;\n\u0026nbsp;If you see an issue, contact Rex if possible or flag any comments for review. If you believe someone has violated the Basic Rules, report it to Disqus by flagging the user's profile.\nStay On-topic\nBe sure your topic matches the general theme of the channel. For example, all discussions on Talk Shop should pertain to fashion and beauty. Not sure if you’re posting to the right channel? Check the channel’s About section, or recently-added discussions to get an idea of what subjects are appropriate.\nNo Self-promotion\nA discussion or comment that contains only a link to your blog, a product, or your article on another site will almost always be removed.\nChoose Your (Curse) Words Wisely\nComments that contain profanity are automatically held for moderator review before being posted. Depending on the context of the comment, it may be removed. Profanity used to insult, antagonize, or inflame will always be removed.\nDon’t Be a Jerk\nPersonal attacks and harassment will not be tolerated. Sexist, racist, misogynist, homophobic, and broad, offensive generalizations about groups of people are simply not allowed. Comments or discussions written intentionally to provoke will also be removed.\nDon’t Copy and Paste\nIf you didn’t write it, or haven’t properly cited the article you’re quoting, don’t post it.\n"
+},
+{
+	"uri": "/access2justicePDX/project/mvp/",
+	"title": "MVP",
+	"tags": [],
+	"description": "",
+	"content": " The MVP will be an application for generating pdf documents from an interview process that can then be edited, shared and viewed on a mobile device via a role-based access system.\nThe app will initially be for internal use only, by The Commons Law Center. The idea is to create a more effective way to fill in large and confusing legal forms. Essentially we are creating a Turbo Tax for family court.\nTerminology  Plead Papers - Documents standardized in a legal style that is acceptable in court. Example\n Interview - A process of questions and answers that develops information on a given subject.\n  Epic The Document Builder. It will allow a user to provide an interactive guide for interviews to discover the information needed for generating plead documents. A user would be an employee at The Commons Law Center that would need to generate documents needed for specific matters. Profiles would be able to be used to create PDFs and editable documents that can be shared with the judge or a lawyer for a situational triage. It is like The Commons Law Center’s, “Hello”.\nMission Critical Conditions Style Constraints We have the freedom to make the numbers on the left of the plead documents to make sense. The style needs to be within the constraints described here Appellate Courts Style Guide so that I can submit the proper documentation for a judge or client to review.\nAdjective Refactor The documents that are given to the courts are called plead papers and the ones we are working on have, for example some adjectives describe people as husband and wife and this is nonsensical for same-sex marriages. It needs to be updated to something that makes sense to all points of reference. The same goes for any other words throughout all the documents.\nMobile First / PDF viewer Everything for front end should be Mobile First.\n The courts require that the plead papers be in a PDF format. They are commonly read on tablets (or a mobile devices.) The pages we display need to be easily readable and navigable from a small screen and any document output needs to have a pdf option.\nQuestions for Variable Values Each document has variable inputs and some are repetitive or require the same logical input. These need to be organized into questions to reduce the redundancy of filling in the same answer for different portions of the documents.\nDocument Generation and Editing The answer values should be stored in an answer bank that can be reused to generate complete documents in compliance with standards defined in the Appellate Courts Style Guide. These documents must also be editable themselves for textual adjustments to any instance of the document.\nStyle Adherence The plead papers must be compliant to the Appellate Courts Style Guide. There must also be a mobile-friendly viewable and editable version of the document.\nPrivacy and Security Security is everyone\u0026rsquo;s responsibility. We will be required to process and store sensitive data and provide secure user data flows. This is tough and avenues for easily and safely reporting security concerns, events and incidents will be in place. A response plan should be maintained and security communication channels available publicly.\nInfoSec Resources NIST Security Standards - InfoSec Guidelines For Organizations\nPhosphor - Distributive System Tracing\nGoogle - Dapper - Distributive System Tracing\n"
+},
+{
+	"uri": "/access2justicePDX/project/",
+	"title": "Project",
+	"tags": [],
+	"description": "",
+	"content": " The Project Access to legal services is expensive. Many people end up representing themselves in court. The outcomes are not optimal.\nScope: Focus on family court. If successful program will be expanded to other fields.\nProject Mission: Increase the efficacy of the Common’s Law Center by creating software which increases the productivity of its staff.\nProposal: A Web form (initially internal, eventually public) which will securely collect information from applicant. This Form will output to a decision tree interface which will allow a The Commons Law Center staff member to help triage issues. Appropriate Court Forms are pre-filled with client information.\n Output: Pre-Filled forms as well as a guide to court. Allowing people to better represent themselves. If Applicant meets requirements for representation grant. Info then can be accessed by Common’s lawyers.  MVP\n"
+},
+{
+	"uri": "/access2justicePDX/security/",
+	"title": "Security",
+	"tags": [],
+	"description": "Web form for reporting and various information.",
+	"content": " Meta:Security-8310199117114105116::121  Name  Email  Please state your concern.    Was there an incident?    Would you like us to respond to this message?          .build-a-form ul.actions { list-style: none; display: flex; justify-content: flex-start; } .build-a-form .actions li { margin-left: 6px; } .build-a-form .actions li input{ padding: 8px; border: black 1px solid; border-radius: 0.5em; transition: all 0.4s ease-out; } .build-a-form .actions li:nth-child(2n) input { background: #ffadbc; } .build-a-form .actions li:hover input { background: #9cc4d4; }  "
+},
+{
+	"uri": "/access2justicePDX/",
+	"title": "Access2Justice",
+	"tags": [],
+	"description": "",
+	"content": " Access2Justice This project and site is currently in development. Expect features and web pages to be unstable and change without notice.\n Support This Project We are a volunteer team of hackers working with The Commons Law Center to make a difference in reducing the time and money it costs for people to have legal services.\n Here you will find information on the current projects, documentation and network status. If you want to contribute checkout our GitHub and our contribution guide.\nSteps To Get Aboard!  Visit here: https://www.codeforportland.org/access2justicePDX/project/mvp/ to checkout our Goal.\n Get on our Slack - contact our Admin or Project Manager via email a2j@codeforpdx.org or come and visit us at one of our bi-weekly hacking nights https://www.meetup.com/Code-for-PDX/ and we can send you an invite.\n Get added to our Jira. Here you will find the current status of the project and a place where we can assign tasks. It is where we will be able to interface everyone agnostic to discipline.\n Learn something, build your portfolio, have fun and positively impact society.\n  "
+},
+{
+	"uri": "/access2justicePDX/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/access2justicePDX/policies/",
+	"title": "Policies",
+	"tags": [],
+	"description": "",
+	"content": "The rules and standards we expect our users to abide by.\n"
+},
+{
+	"uri": "/access2justicePDX/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

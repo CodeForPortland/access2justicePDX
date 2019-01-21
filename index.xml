@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Access2Justice on Code4PDX presents Access2Justice</title>
+    <link>/access2justicePDX/</link>
+    <description>Recent content in Access2Justice on Code4PDX presents Access2Justice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/access2justicePDX/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comments Policy</title>
+      <link>/access2justicePDX/comments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/access2justicePDX/comments/</guid>
+      <description>We’ve put together a set of universal guidelines that we believe every community can benefit from and moderators can adopt. Our goal is to ensure that these set of guidelines are easy to understand. It’s not meant to be comprehensive, rather focusing on the most commonly shared principles we believe are critical for setting a foundation in a community to enable it to thrive.
+Keep it civil aka don’t be a jerk We’re going to get into the thick of a lot of heated discussions and that’s okay.</description>
+    </item>
+    
+    <item>
+      <title>MVP</title>
+      <link>/access2justicePDX/project/mvp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/access2justicePDX/project/mvp/</guid>
+      <description>The MVP will be an application for generating pdf documents from an interview process that can then be edited, shared and viewed on a mobile device via a role-based access system.
+The app will initially be for internal use only, by The Commons Law Center. The idea is to create a more effective way to fill in large and confusing legal forms. Essentially we are creating a Turbo Tax for family court.</description>
+    </item>
+    
+  </channel>
+</rss>

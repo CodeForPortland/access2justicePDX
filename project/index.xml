@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on Code4PDX presents Access2Justice</title>
+    <link>/access2justicePDX/project/</link>
+    <description>Recent content in Project on Code4PDX presents Access2Justice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/access2justicePDX/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MVP</title>
+      <link>/access2justicePDX/project/mvp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/access2justicePDX/project/mvp/</guid>
+      <description>The MVP will be an application for generating pdf documents from an interview process that can then be edited, shared and viewed on a mobile device via a role-based access system.
+The app will initially be for internal use only, by The Commons Law Center. The idea is to create a more effective way to fill in large and confusing legal forms. Essentially we are creating a Turbo Tax for family court.</description>
+    </item>
+    
+  </channel>
+</rss>
