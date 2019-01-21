@@ -15,17 +15,14 @@ Essentially we are creating a **Turbo Tax** for family court.
 
 - **Interview** - A process of questions and answers that develops information on a given subject. 
 
+# Epic
 
-## Epic
-
-As a *The Commons Law Center* lawyer I want to use a mobile application to make my workload easier and to more effectively managed. I would want to access the application and my data on a tablet device. 
-One feature I would expect is a series of questions called **an interview**. Providing answers will populate variables inside the documents I need filled with values relative to the questions the interview process asks.
-I could then generate **plead papers**, documents and other filled forms in which I need to properly manage a case in a family court, legal process. 
-Also in the future I would be able to use the data I stored to further generate other documents I will need. When I review the documents generated I can also provide additions, edits, and adjustments to each document independently and save those versions. 
-Generating a document I would then be able to share as a **PDF file** that conforms visually to the regulations of the 
-[Appellate Courts Style Guide](https://www.courts.oregon.gov/publications/Documents/UpdatedStyleManual2002.pdf) so that I can submit the proper documentation for a judge  or client to review.
+**The Document Builder.** It will allow a user to provide an interactive guide for interviews to discover the information needed for generating plead documents. A user would be an employee at The Commons Law Center that would need to generate documents needed for specific matters. Profiles would be able to be used to create PDFs and editable documents that can be shared with the judge or a lawyer for a situational triage. It is like The Commons Law Center’s, “Hello”.
 
 ## Mission Critical Conditions
+
+### Style Constraints
+We have the freedom to make the numbers on the left of the plead documents to make sense. The style needs to be within the constraints described here [Appellate Courts Style Guide](https://www.courts.oregon.gov/publications/Documents/UpdatedStyleManual2002.pdf) so that I can submit the proper documentation for a judge or client to review.
 
 ### Adjective Refactor
 
