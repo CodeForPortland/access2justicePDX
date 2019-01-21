@@ -57,14 +57,4 @@ There must also be a mobile-friendly viewable and editable version of the docume
 
 ### Privacy and Security
 
-Security is everyone's responsibility. We will be required to process and store sensitive data and provide secure user data flows. 
-This is tough and avenues for easily and safely reporting security concerns, events and incidents will be in place. 
-A [response plan](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf) should be maintained and security communication channels available publicly.  
-
-#### InfoSec Resources
- 
-[NIST Security Standards](https://www.nist.gov/cyberframework) - InfoSec Guidelines For Organizations
-
-[Phosphor](https://github.com/monzo/phosphor) - Distributive System Tracing 
-
-[Google - Dapper](https://ai.google/research/pubs/pub36356) - Distributive System Tracing
+Security is assured through using secure third party services and tokenizing users access to resources. 
